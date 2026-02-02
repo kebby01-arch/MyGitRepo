@@ -1,16 +1,16 @@
-k = 60
-print(k)
-print(id(k))
+a = "hello world"
+print(id(a))
+b = "hello world"
+print(id(b))
+if a == b:
+    print("a 和 b data 相等")
+else:
+    print("a 和 b data 不相等")
 
-x = 30
-print(x)
-print(id(x))
-y = x
-print("y="+str(y))
-print("id(y)="+str(id(y)))
-result = x+y
-print("result="+str(result))
-print("id(result)="+str(id(result)))  
+if a is b:
+    print("a 和 b 是同一個物件    ")
+else:
+    print("a 和 b 不是同一個物件")    
 '''
 Immutable object example
 不可變物件範例
